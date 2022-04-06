@@ -1,23 +1,44 @@
-.container {  display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "logo . . ."
-      ". Ricardo box-pour-image-déco box-pour-image-déco"
-      ". resume box-pour-image-déco box-pour-image-déco"
-      ". boutton boutton ."
-      ". . . .";
-  }
-  
-  .Ricardo { grid-area: Ricardo; }
-  
-  .resume { grid-area: resume; }
-  
-  .box-pour-image-déco { grid-area: box-pour-image-déco; }
-  
-  .boutton { grid-area: boutton; }
-  
-  .logo { grid-area: logo; }
-  
+aside{
+    background-color: lightblue;
+    height: 650px;
+    width: 35%;
+    display: flex;
+
+}
+main{
+    background-color: lightgray;
+    height: 650px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+
+
+
+}
+body{
+    display: flex;
+}
+address{
+    align-items: flex-end;
+    display: flex;
+    
+}
+h2{
+    left: 325px;
+    
+    position: relative;
+}
+p{
+    top: 100px;
+    position: relative;
+}
+button{
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: 175px;
+    right: 400px;
+    color: red;
+    background-color: darkorange;
+    
+}
