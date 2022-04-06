@@ -43,9 +43,10 @@ button{
     
 }
 .container{
-   height: 300px;
-   width: 150px;
+   height: 350px;
+   width: 200px;
    right: 800px;
-   top: 200px;
+   top: 150px;
    position: relative;
+   box-shadow: 100px;
 }
